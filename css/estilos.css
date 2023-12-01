@@ -1,0 +1,76 @@
+h1:hover {
+    color: rgb(240, 236, 11);
+    transition: color 0.2s; 
+}
+h1 {
+    font-family: 'Times New Roman', serif;
+    font-weight: bolder;
+}
+h2{
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.sec2:hover {
+    color: rgb(25, 0, 255); 
+}
+.sec3:hover {
+    color: red; 
+}
+
+.lead{
+    font-size: 20px; 
+}
+
+.custom-font-size, .custom-paragraph {
+    font-size: 18px; 
+    margin-bottom: 22px;
+}
+
+.small-screen{
+    display: none;
+}
+
+/*Tablets*/
+@media (max-width: 768px) {
+
+    p {
+        font-size: 16px; 
+    }
+
+    h1 {
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+
+}
+
+/*Celulares*/
+@media (max-width: 480px) {
+    .small-screen{
+        display: block;
+    }
+
+    .big-screen{
+        display: none;
+    }
+
+    .lead, .custom-font-size, .custom-paragraph {
+        font-size: 14px; 
+    }
+
+    p {
+        font-size: 13px; 
+    }
+
+    h1 {
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    
+}
